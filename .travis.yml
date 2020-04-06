@@ -5,7 +5,7 @@ services:
   - docker
 
 env:
-  - IMAGE_REPO=ktkang/nginx-php-fpm DOCKER_TAG=${TRAVIS_TAG}
+  - IMAGE_REPO=ridibooks/docker-nginx-php-fpm DOCKER_TAG=${TRAVIS_TAG}
 
 script:
   - bin/build.sh
